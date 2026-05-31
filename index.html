@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+        <title>Student Course Tracker</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Student Course Tracker</h1>
+            <p>Keep all your courses on the same place, so that you will not miss important deadlines.</p>
+
+            <nav>
+                <ul>
+                    <li><a href="#">Add new course</a></li>
+                    <li><a href="#">Track Progress</a></li>
+                    <li><a href="#">Completd Courses</a></li>
+                    <li><a href="#">Pending Courses</a></li>
+                    <li><a href="#">Profile</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="add-course">
+            
+            <div id="add">
+                <h3>Add a new course</h3>
+                <form action=" /add" method="post">
+                    <input type="text" id="course-name" placeholder="Digital marketing skills">
+
+                    <input type="text" id="duration" placeholder="3 weeks">
+
+                    <input type="text" id="institution" placeholder="Ad Expect">
+
+                    <button type="submit">Add Course</button>
+                </form>
+            </div>
+        </section>
+        <section class="course-list">
+            <h2>My Courses</h2>
+
+            <div id="courses-container">
+
+             </div>
+        </section>
+
+
+        <script src="script.js"></script>
+    </body>
+</html>
